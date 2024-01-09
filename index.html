@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <nav>
+        <audio src="./musics/lofi-study-112191.mp3" id="lofi"></audio>
+        <button id="playmusic">♫</button>
+        <button id="darkmode">Switch to Dark Mode</button>
+    </nav>
+    <main>
+        <h1 id="heading"></h1>
+
+        <div id="container" class="container">
+
+            <form action="add tasks" id="form">
+                <input type="text" class="inputarea" id="inputValue" placeholder="ADD SOME TASK">
+                <button id="btnadd">ADD</button>
+            </form>
+
+            <div id="activeTasks" class="activeTasks">
+
+            </div>
+
+            <button id="addBtn">+</button>
+
+        </div>
+    </main>
+
+</body>
+
+</html>
